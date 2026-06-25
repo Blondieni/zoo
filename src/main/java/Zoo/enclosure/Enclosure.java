@@ -1,4 +1,4 @@
-package Zoo;
+package Zoo.enclosure;
 
 import Zoo.animal.Animal;
 
