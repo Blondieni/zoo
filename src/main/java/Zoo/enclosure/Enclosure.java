@@ -33,6 +33,10 @@ public class Enclosure<T extends Animal> {
         return List.copyOf(this.inhabitants);
     }
 
+    public String getName(){
+        return name;
+    }
+
     @Override
     public String toString() {
         return "Gehege name: " + this.name + " Anzahl: " + inhabitants.size();
